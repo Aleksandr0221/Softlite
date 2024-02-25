@@ -1,0 +1,152 @@
+.compensation {
+	display: flex;
+	justify-content: center;
+	
+}
+
+.compensation__wrapper {
+	width: 1110px;
+	height: 861px;
+	background: #ffffff;
+	box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.06);
+	padding: 80px 0 80px 0;
+}
+
+.compensation__wrapper-icon {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 16px;
+	padding: 0 0 64px 0;
+}
+
+.compensation__title {
+	display: flex;
+	justify-content: center;
+	font-weight: 600;
+	font-size: 56px;
+	padding: 0 0 50px 0;
+}
+
+.compensation__icons {
+	width: 178px;
+	height: 140px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.compensation__icon {
+	padding: 0 0 10px 0;
+}
+
+.compensation__icon-text {
+	font-weight: 400;
+	font-size: 18px;
+	color: var(--color-black-light);
+	text-align: center;
+}
+
+.compensation__line {
+	width: 1110px;
+	border: 1px solid #686767;
+}
+
+.compensation__title-min {
+	display: flex;
+	justify-content: center;
+	font-weight: 600;
+	font-size: 40px;
+	color: var(--color-black-light);
+	padding: 76px 0 27px 0;
+}
+
+.compensation__title-text {
+	display: flex;
+	justify-content: center;
+	font-weight: 600;
+	font-size: 40px;
+	color: var(--color-red);
+	padding: 0 0 27px 0;
+}
+
+.compensation__wrapper-program {
+	display: flex;
+	justify-content: center;
+}
+
+@media (max-width: 1070px) {
+	.compensation__wrapper-icon {
+		justify-content: center;
+		
+	}
+
+	.compensation__icons {
+		width: 120px;
+		height: 140px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.compensation__title {
+		font-size: 36px;
+	}
+	
+.compensation__icon-text {
+	font-size: 16px;
+}
+
+.compensation__title-min {
+	text-align: center;
+	font-size: 24px;
+	
+	
+}
+
+.compensation__title-text {
+
+	font-size: 24px;
+
+}
+} 
+
+@media (max-width: 680px) {
+.compensation__wrapper {
+	height: 100%;
+}
+
+	.compensation__wrapper-icon {
+		flex-flow: column wrap;
+		gap: 40px;
+	}
+
+	.compensation__title-min {
+		text-align: center;
+		font-size: 20px;
+	}
+	
+	.compensation__title-text {
+	font-size: 18px;
+	}
+
+	
+}
+
+@media (max-width: 460px) {
+	.compensation__title {
+		font-size: 26px;
+	}
+
+	.compensation__title-min {
+		
+		text-align: center;
+		font-size: 16px;
+		
+	}
+	
+	.compensation__title-text {
+	font-size: 16px;
+	}
+}
+

@@ -1,0 +1,136 @@
+.header {
+	padding: 0 0 100px 0;
+
+}
+
+/* .header_wrapper {
+	width: 100%;
+	height: 85px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+} */
+
+.header__logo {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+}
+
+.header__navigation {
+	display: flex;
+	justify-content: space-between;
+	padding: 32px;
+
+}
+
+.header__navigation-list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	white-space: nowrap;
+
+}
+
+.header__navigation__link {
+	color: var(--color-black-light);
+	font-weight: 600;
+	font-size: 18px;
+
+}
+
+.header__navigation__link:hover {
+	color: var(--color-red);
+}
+
+
+.header__image {
+	background-image: url(../accetss/images/bg.webp);
+	background-size: cover;
+	width: 1250px ; 
+	height: 660px;
+}
+
+.header__title {
+	width: 900px;
+	height: 168px;
+	font-weight: 600;
+	font-size: 56px;
+	padding: 158px 0 0 10px
+}
+
+.header__button {
+	width: 110px;
+	height: 56px;
+	background-color: var(--color-red);
+	color: var(--color-withe);
+	display: flex;
+	justify-content: center;
+	border-radius: 8px;
+	margin: 258px 0 0 10px;
+}
+
+.header__button:hover {
+	background-color: #fe4d4d;
+}
+
+@media (max-width: 1214px) {
+	.header__navigation {
+		align-items: center;
+		justify-content: center;
+
+	}
+
+	.header__navigation-list {
+		padding: 0 0 0 30px;
+	}
+
+	.header__title {
+		
+		font-size: 56px;
+
+	}
+	.header__image {
+		width: 100%;
+	}
+
+}
+
+@media (max-width: 980px) {
+
+	.header__navigation__link {
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 900px) {
+	.header__navigation-list {
+		display: none;
+	}
+
+	.header__title {
+		
+		font-size: 36px;
+		width: 507px;
+
+	}
+
+	.header__button {
+		
+		margin-top: 200px;
+	}
+}
+
+@media (max-width: 530px) {
+	.header__title {
+		font-size: 24px;
+		width: 330px;
+		padding-left: 10px;
+	}
+
+	.header__button {
+		
+		margin-left: px;
+	}
+}
